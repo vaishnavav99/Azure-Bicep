@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pServerName":{
+            "value": "sqlserverbiceptest"
+        },
+        "pSqlDbName":{
+            "value": "sqldb"
+        },
+        "pSKU": {
+            "value":{
+                "name": "Basic",
+                "tier": "Basic",
+                "capacity": 5
+            }
+        },
+        "pBackupStorageRedundancy":{
+            "value": "Local"
+        },
+        "pReadScaleout":{
+            "value": "Disabled"
+        },
+        "pTags": {
+            "value": {
+                "CreatedBy": "vaishnavav" ,
+                "TicketNumber": "CS-116036" ,
+                "Comment": "Create new Storage" ,
+                "ProjectName": "Storage Account" ,
+                "ProjectOwner": "vaishnav"
+                }
+        }
+    }
+}

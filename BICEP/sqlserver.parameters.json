@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pServerName":{
+            "value": "sqlserverbiceptest"
+        },
+        "pAdminName":{
+            "value": "adminuser"
+        },
+        "PAdminPassword":{
+            "value": "password@123"
+        },
+        "pTags": {
+            "value": {
+                "CreatedBy": "vaishnavav" ,
+                "TicketNumber": "CS-116036" ,
+                "Comment": "Create new Storage" ,
+                "ProjectName": "Storage Account" ,
+                "ProjectOwner": "tops"
+                }
+        },
+        "pIPName":{
+            "value": "IPName"
+        },
+        "pStartIP":{
+            "value": "1.1.1.1"
+        },
+        "pEndIP":{
+            "value": "1.1.1.1"
+        },
+        "pLoginName":{
+            "value": "admin"
+        },
+        "pSID":{
+            "value": "61fcc749-9c9d-40cd-944b-e27a25e63d96"
+        }
+    }
+}

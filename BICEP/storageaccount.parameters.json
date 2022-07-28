@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+
+      "pStorageAccountName": {
+        "value": "storagename"
+      },
+      "pStorageAccountSku": {
+        "value": "Standard_LRS"
+      },
+      "pStorageAccountaccessTier" :{
+        "value": "Hot"
+      },
+      "pTags": {
+            "value": {
+                "CreatedBy": "vaishnavav" ,
+                "TicketNumber": "CS-116036" ,
+                "Comment": "Create new Storage" ,
+                "ProjectName": "Storage Account" ,
+                "ProjectOwner": "vaishnav"
+                }
+        }
+  }
+}

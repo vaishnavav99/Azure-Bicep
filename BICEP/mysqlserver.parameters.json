@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pServerName":{
+            "value": "vaishnav-dr"
+        },
+        "pSKU":{
+            "value": {
+                    "name": "B_Gen5_1",
+                    "tier": "Basic",
+                    "family": "Gen5",
+                    "capacity": 1
+            }
+        },
+        "pTags": {
+            "value": {
+                "CreatedBy": "vaishnavav" ,
+                "TicketNumber": "CS-116036" ,
+                "Comment": "Create new Storage" ,
+                "ProjectName": "Storage Account" ,
+                "ProjectOwner": "vaishnavav"
+                }
+        },
+        "pProperties":{
+            "value": {
+                "createMode": "Default",    
+                "administratorLogin": "adminuser",
+                "administratorLoginPassword": "password@123",
+                "storageProfile": {
+                    "storageMB": 51200,
+                    "backupRetentionDays": 30,
+                    "geoRedundantBackup": "Disabled",
+                    "storageAutogrow": "Enabled"
+                }
+            }
+        }
+    }
+}
