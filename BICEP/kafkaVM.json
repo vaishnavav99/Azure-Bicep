@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pVMname" : {
+            "value": "vm-kafka-nonprod-005"
+        },
+        "pAdminUser" : {
+            "value": "Carestackadmin"
+        },
+        "pTags" :{
+            "value": {
+                "CreatedBy": "vaishnavav" ,
+                "TicketNumber": "CS-116036" ,
+                "Comment": "Create new Storage"
+            }
+        },
+        "pSubnet":{
+            "value": "/subscriptions/2d503d69-3c9a-4ebf-870b-6a7cda653c9c/resourceGroups/rg-carestack-qa1-001/providers/Microsoft.Network/virtualNetworks/vnet-carestack-qa1-001/subnets/sub-pvt-common-01"
+        },
+        "pzone":{
+            "value": "1"
+        },
+        "pTier":{
+            "value": "Standard_B2ms"
+        }
+    }
+    
+}
