@@ -6,7 +6,7 @@
             "value": "vm-kafka-nonprod-005"
         },
         "pAdminUser" : {
-            "value": "Carestackadmin"
+            "value": "xxxx"
         },
         "pTags" :{
             "value": {
@@ -16,7 +16,7 @@
             }
         },
         "pSubnet":{
-            "value": "/subscriptions/2d503d69-3c9a-4ebf-870b-6a7cda653c9c/resourceGroups/rg-carestack-qa1-001/providers/Microsoft.Network/virtualNetworks/vnet-carestack-qa1-001/subnets/sub-pvt-common-01"
+            "value": "/subscriptions/00000/resourceGroups/xxxx/providers/Microsoft.Network/virtualNetworks/xxx/subnets/sub-pvt-common-01"
         },
         "pzone":{
             "value": "1"
